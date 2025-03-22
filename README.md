@@ -27,13 +27,13 @@ For developers and teams working with AI coding assistants, this framework solve
 
 ```bash
 # Option 1: Clone directly (recommended for new projects)
-git clone https://github.com/your-username/ai-prompt-framework.git my-project
+git clone https://github.com/untoldecay/Ai-IDE-Prompt-Framework.git my-project
 cd my-project
 rm -rf .git  # Remove existing git history
 git init     # Start fresh git repository
 
 # Option 2: Add to existing project
-git clone https://github.com/your-username/ai-prompt-framework.git temp
+git clone https://github.com/untoldecay/Ai-IDE-Prompt-Framework.git temp
 cp -r temp/_rules your-existing-project/
 rm -rf temp
 ```
