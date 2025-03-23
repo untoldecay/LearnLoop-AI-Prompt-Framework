@@ -5,9 +5,9 @@
 Always start any new chat with 'Y0!!'
 
 # Project context
-* Find all about your mission and tech stack in '_rules/prompts/mission.md'
-* Find all about the project global requirements in '_rules/requirements/'
-* Find all about the project features and requirements in '_rules/features/'
+* Find all about your mission and tech stack in '_rules/_prompts/mission.md'
+* Find all about the project global requirements in '_rules/_requirements/'
+* Find all about the project features and requirements in '_rules/_features/'
 
 # General rules
 
@@ -22,11 +22,11 @@ Always start any new chat with 'Y0!!'
 * **Plan and Break Down:** 
   * Always plan your work before you start coding. Break down complex tasks into smaller chunks that are easier to test and debug. 
   * IF USER ASK TO BUILD A FEATURE or a new feature:
-    * Search for the feature in '_rules/requirements/' (for context, PR are not mandatory)
-    * Verify if the feature is started already inside '_rules/features/'. If true, continue based on the ETA and plan found.
-    * If false, refere to '_rules/prompts/breakdown.md' to create a plan for this feature.
+    * Search for the feature in '_rules/_requirements/' (for context, PR are not mandatory)
+    * Verify if the feature is started already inside '_rules/_features/'. If true, continue based on the ETA and plan found.
+    * If false, refere to '_rules/_prompts/breakdown.md' to create a plan for this feature.
 * **Extended Documentation :**
-  * Write Extended documentation ONLY when feature is tested and approved by the user, follow rules in '_rules/prompts/documentation.md'
+  * Write Extended documentation ONLY when feature is tested and approved by the user, follow rules in '_rules/_prompts/documentation.md'
 * **Error Handling**
   * Use try-except blocks for error-prone operations
   * Provide meaningful error messages
@@ -75,7 +75,7 @@ Always start any new chat with 'Y0!!'
   * Apply facade pattern for files exceeding 1000 lines
   * Structure: original file as facade that re-exports from specialized modules
   * Create modules with single responsibilities (300-500 lines max)
-  * Follow '_rules/prompts/facade_modularization.md' for implementation
+  * Follow '_rules/_prompts/facade_modularization.md' for implementation
 
 ## Version control with Git:
 

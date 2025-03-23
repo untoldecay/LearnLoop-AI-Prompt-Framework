@@ -46,7 +46,7 @@ Analyze the previous conversation and create a concise learning card that captur
 5. **Visual Clarity**: Use formatting to improve readability
 6. **Practicality**: Focus on actionable knowledge
 7. **Multiple Cards**: If the discussion contains more than 3-4 key areas or 12-15 total key points, split into multiple learning cards with related topics
-8. **Card Storage**: Save all learning cards in the `_rules/learnings/user/` directory with descriptive filenames
+8. **Card Storage**: Save all learning cards in the `_rules/_learnings/user/` directory with descriptive filenames
 
 ## Output Requirements
 
@@ -58,6 +58,6 @@ Analyze the previous conversation and create a concise learning card that captur
 - Use markdown formatting for clear visual hierarchy
 - Avoid unnecessary explanations or repetition
 - Maximum of 3-4 key areas and 12-15 total key points per card
-- Learning cards should be saved as markdown files in `_rules/learnings/user/` with names like `topic_name_learning_card.md`
+- Learning cards should be saved as markdown files in `_rules/_learnings/user/` with names like `topic_name_learning_card.md`
 
 The goal is to create a reusable learning resource that can be quickly referenced in the future.
