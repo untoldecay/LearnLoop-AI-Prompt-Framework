@@ -30,7 +30,7 @@ Each interaction becomes an opportunity to improve both your understanding and f
 ## Getting Started
 ```bash
 # Clone to your project's root
-git clone https://github.com/untoldecay/Ai-IDE-Prompt-Framework.git my-project
+git clone https://github.com/untoldecay/LearnLoop-AI-Prompt-Framework.git my-project
 cd my-project
 ```
 That's it! You're ready to start using the framework.
