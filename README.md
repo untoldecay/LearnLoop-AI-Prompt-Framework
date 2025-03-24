@@ -1,6 +1,6 @@
 # 🤖 Learnloop AI prompt Framework
 
-A learning-focused system that helps coders stay consistent while extracting value from AI interactions.
+A learning-focused system that helps coders stay consistent while extracting value from AI interactions inside AI IDE (Windsurf, but could also used with other IDEs like Cursor, Cline etc)
 
 **Solving Common AI Challenges:**
 
@@ -8,14 +8,16 @@ A learning-focused system that helps coders stay consistent while extracting val
 * ⏱️ **Time & Money Waste** → Save tokens with structured, focused prompts
 * 🔄 **Feature Regression** → Maintain working code across AI sessions
 * 🤯 **Complexity Overload** → Break work into manageable, tracked steps
+* 🤝 **Interoperability** → Use this framework or at least it's generated knowledge across multiple AI IDEs.
+
 
 ## Why Learning-Focused?
 
 The framework creates a bidirectional learning process between you and your AI assistant, allowing to grow a shared context of the project.
 
-* **Capture insights** from each conversation → cristalize exploration phase in `_rules/_analysis/[topic]/` (using `add-analysis` prompt), create learning cards on-demand (using `add-user-learnings` prompt), to reference for building a plan (using `breakdown` prompt), or learning.
-* **Automatically records implementation insights repositories** → For each feature, automatically logs a folder of proven approaches in `_rules/_features/[feature-name]/devlog/`. to inspect or reuse later
-* **Automatically generate documentation** with AI-generated content → After feautre validation, the framework saves documentation learnings in `_rules/_documentation/`, which could be linked from your project's main `README.md`
+* **Capture insights** from each conversation → cristalize exploration phase in `_rules/_analysis/[topic]/` (using `@add-analysis` prompt), create learning cards on-demand (using `@add-user-learnings` prompt), to reference for building a plan (using `@breakdown` prompt), or learning.
+* **Automatically records implementation logs** → For each feature, automatically logs insights in `_rules/_features/[feature-name]/devlog/`. to inspect or reuse later. At term this will feed AI `_rules/_learnings/ai/` context.
+* **Automatically generate documentation** → After feautre validation, the framework saves documentation learnings in `_rules/_documentation/`, which could be linked from your project's main `README.md`
 * **Reference past work** instead of starting from scratch → Use `@` references to pull in previous analysis, learnings, and code patterns across sessions.
 
 Each interaction becomes an opportunity to improve both your understanding and future results. All knowledge is stored in markdown files that could serve AI context and multiple purposes.
@@ -41,8 +43,10 @@ For a detailed setup:
 Instead of open-ended questions, use `@` to call structured prompts:
 **Instead of:**
 > "Can you write code for a login form based on our conversation?"
+
 **Try:**
 > "Please follow `@breakdown.md` to create a plan for a login form based on our findings in `@_rules/_analysis/[topic]/`"
+
 The AI will:
 1. Use context from your previous analysis
 2. Create a trackable implementation plan
