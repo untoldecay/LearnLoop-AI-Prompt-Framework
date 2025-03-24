@@ -13,13 +13,10 @@ A learning-focused system that helps coders stay consistent while extracting val
 
 The framework creates a bidirectional learning process between you and your AI assistant, allowing to grow a shared context of the project.
 
-* **Capture insights** from each conversation
-    ** Cristalize exploration phase in `_rules/_analysis/[topic]/` (using `add-analysis` prompt), create learning cards on-demand (using `add-user-learnings` prompt), to reference for building a plan (using `breakdown` prompt), or learning.
-* **Automatically builds implementation insights repositories** 
-** For each feature, automatically logs a folder of proven approaches in `_rules/_features/[feature-name]/devlog/`. to inspect or reuse later
-* **Automatically generate documentation** with AI-generated content 
-** After feautre validation, the framework saves documentation learnings in `_rules/_documentation/`, which could be linked from your project's main `README.md`
-* **Reference past work** instead of starting from scratch **Use** `@` references to pull in previous analysis, learnings, and code patterns across sessions.
+* **Capture insights** from each conversation → cristalize exploration phase in `_rules/_analysis/[topic]/` (using `add-analysis` prompt), create learning cards on-demand (using `add-user-learnings` prompt), to reference for building a plan (using `breakdown` prompt), or learning.
+* **Automatically records implementation insights repositories** → For each feature, automatically logs a folder of proven approaches in `_rules/_features/[feature-name]/devlog/`. to inspect or reuse later
+* **Automatically generate documentation** with AI-generated content → After feautre validation, the framework saves documentation learnings in `_rules/_documentation/`, which could be linked from your project's main `README.md`
+* **Reference past work** instead of starting from scratch → Use `@` references to pull in previous analysis, learnings, and code patterns across sessions.
 
 Each interaction becomes an opportunity to improve both your understanding and future results. All knowledge is stored in markdown files that could serve AI context and multiple purposes.
 * Reference past work in new AI conversations
