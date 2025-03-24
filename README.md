@@ -13,8 +13,8 @@ A learning-focused system that helps coders stay consistent while extracting val
 
 The framework creates a bidirectional learning process between you and your AI assistant, allowing to grow a shared context of the project.
 
-* **Capture insights** from each conversation 
-** Cristalize exploration phase in `_rules/_analysis/[topic]/` (using `add-analysis` prompt), create learning cards on-demand (using `add-user-learnings` prompt), to reference for building a plan (using `breakdown` prompt), or learning.
+* **Capture insights** from each conversation
+    ** Cristalize exploration phase in `_rules/_analysis/[topic]/` (using `add-analysis` prompt), create learning cards on-demand (using `add-user-learnings` prompt), to reference for building a plan (using `breakdown` prompt), or learning.
 * **Automatically builds implementation insights repositories** 
 ** For each feature, automatically logs a folder of proven approaches in `_rules/_features/[feature-name]/devlog/`. to inspect or reuse later
 * **Automatically generate documentation** with AI-generated content 
