@@ -92,11 +92,11 @@ Implementation Process and User Flow:
 
 6. **Final Validation:**
    * Present entire feature implementation to user for final validation
+   * Compile efficiently all most important learnings from 'devlog' folder into '_rules/_learnings/ai/' for the ai assistant to use later
    * Include implementation summary, test results, and documentation status
    * Ask directly about documentation needs
 
 7. **Documentation Completion:**
-   * If requested, create documentation in "_rules/_documentation" folder
+   * If requested, create documentation in "_rules/_documentation" folder following '_rules/_prompts/documentation.md'
    * Update feature tracking file
-   * Compile efficiently all most important learnings from 'devlog' folder into '_rules/_learnings/ai/' for the ai assistant to use later
    * Suggest final review
