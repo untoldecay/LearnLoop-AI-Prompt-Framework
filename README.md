@@ -163,25 +163,15 @@ Each interaction becomes an opportunity to improve both your understanding and f
 
 | Benefit | Description |
 |---------|-------------|
-| **Knowledge Retention** | Each chat builds on previous interactions, preventing valuable insights from being lost |
-| **Token Efficiency** | Save money with structured, focused prompts that minimize token usage |
-| **Code Consistency** | Maintain working features across AI sessions, preventing regression |
-| **Complexity Management** | Break complex projects into manageable, tracked steps |
-| **User Learning** | Learn alongside AI instead of blindly accepting generated code |
-| **Project Control** | Remain the boss of your project while leveraging AI assistance |
+| **Knowledge Persistency** | Each chat builds on previous interactions, preventing valuable insights from being lost |
+| **Working Continuity** | Maintain working ETA across AI sessions with implementation tracking, easing following up |
+| **Understanding** | Break complex projects into manageable, understandbable chunks, stay in control |
+| **User Learning** | Cristalise learnings and insights on the go |
 | **Structured Documentation** | Automatically generate and maintain documentation in a consistent format |
-
-### Bonus Benefits
-
-| Benefit | Description |
-|---------|-------------|
-| **Tool Interoperability** | Works across multiple AI coding tools (Windsurf, Cursor, Cline, etc.) |
-| **Incremental Building** | Build a consistent system instead of relying on one-off commands |
-| **Context Preservation** | Reference limited scope context to save time and tokens |
-| **Knowledge Sharing** | Create condensed overviews of complex topics that can be shared with team members |
-| **Media Transformation** | Transform markdown files into other media formats (e.g., podcasts) |
-| **Guided Learning** | Use teaching mode to learn new technologies with AI guidance |
-| **Architecture Improvement** | Identify and restructure monolithic files for better maintainability |
+| **AI Friendly Architecture** | Context architecture that is easy to understand by AI |
+| **Tool Interoperability** | Generated context can be referenced in other AI coding tools (Windsurf, Cursor, Cline, etc.) |
+| **Context Isolation** | Reference limited scope context to save time and tokens |
+| **Knowledge Sharing** | Create condensed overviews of complex topics that can be shared with team members in text or other media formats (e.g., podcasts) |
 
 The framework bridges the gap between rapid AI code generation and sustainable development practices, ensuring you build not just working software, but understandable, maintainable systems that you fully comprehend.
 
