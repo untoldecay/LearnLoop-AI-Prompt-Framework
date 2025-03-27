@@ -1,6 +1,7 @@
-# 🤖 Learnloop AI Prompt Framework
+# 🤖 Learnloop
 
-This framework is a collection of rules, prompts, and workflows that automates saving context (progression/insights/learnings) in a structured system helping you and your AI coding tool to flow and be more effective.
+This is a tool for AI-powered coding tools (Windsurf primarily).
+It is a collection of rules, prompts, and workflows that automates saving context (progression/insights/learnings) in a structured system helping you and your AI coding tool to flow and be more effective.
 
 **Because vibecoding is fun until it's not**
 
