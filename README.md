@@ -13,11 +13,11 @@ If you're looking to build something relatively quickly with AI that you'll need
 
 ## Getting Started (2min)
 ```bash
-git clone https://github.com/untoldecay/LearnLoop-AI-Prompt-Framework.git my-project
+git clone https://github.com/untoldecay/LearnLoop-AI-Prompt-Framework.git
 ```
-1. **Add Framework Files** - Clone or download & copy `_rules` folder to your project root
+1. **Add Framework Files** - Clone or download & copy `_rules` folder to your project root directory
 2. **Configure AI** - Copy the content of `_rules/.windsufrules` in your AI's custom instructions settings
-3. **Configure Mission** - Edit `_rules/.mission` with your project's mission statement
+3. **Declare Mission** - Edit `_rules/.mission` with your project's mission statement
 
 That's it! You're ready to start using the framework.
 
