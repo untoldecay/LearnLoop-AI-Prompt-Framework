@@ -5,9 +5,12 @@
 Always start any new chat with 'Y0!!'
 
 # Project context
-* Find all about your mission and tech stack in '_rules/_prompts/mission.md'
-* Find all about the project global requirements in '_rules/_requirements/'
-* Find all about the project features and requirements in '_rules/_features/'
+* Essential context (always check):
+  * Find all about your mission and tech stack in '_rules/_prompts/mission.md'
+  * Check the project features and implementation plans in '_rules/_features/'
+  * Check '_rules/_learnings/ai/' folder to gather AI-specific context and lessons learned from previous tasks
+* For deeper understanding:
+  * Check the project global requirements in '_rules/_requirements/'
 
 # General rules
 
@@ -27,6 +30,13 @@ Always start any new chat with 'Y0!!'
     * If false, refere to '_rules/_prompts/breakdown.md' to create a plan for this feature.
 * **Extended Documentation :**
   * Write Extended documentation ONLY when feature is tested and approved by the user, follow rules in '_rules/_prompts/documentation.md'
+* **Learning Capture:** 
+  * Always compile key learnings into '_rules/_learnings/ai/' after completing any significant task
+  * Format as TOKEN-EFFICIENT, AI-OPTIMIZED content (not primarily for human readers)
+  * Focus on problems encountered and solutions found to prevent repeating mistakes
+  * Use concise, structured format with minimal narrative and maximum information density
+  * Include only technical insights directly relevant to future implementations
+  * Create learning artifacts before requesting any commit
 * **Error Handling**
   * Use try-except blocks for error-prone operations
   * Provide meaningful error messages
@@ -70,8 +80,13 @@ Always start any new chat with 'Y0!!'
 * Follow DRY (Don t Repeat Yourself) principle
 * Use design patterns appropriately
 * Maintain clean architecture
+* **File Statistics:**
+  * Add or update a file statistics comment at the top of ANY edited code file (excluding .md and documentation files)
+  * Format: `/* File Statistics: Lines: {count}, Updated: {date} */`
+  * Update the line count with each edit (count actual code lines, excluding blank lines and comments)
+  * Use language-appropriate comment syntax
 * **Code Modularization:**
-  * Alert user when encountering files over 600 lines and suggest facade modularization
+  * Alert user when encountering files over 600 lines (check file statistics comment)
   * Apply facade pattern for files exceeding 1000 lines
   * Structure: original file as facade that re-exports from specialized modules
   * Create modules with single responsibilities (300-500 lines max)

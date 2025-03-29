@@ -32,7 +32,11 @@ Template for Response:
 5. Validation Criteria
    * Success criteria and test scenarios
    * Edge cases to consider
-6. ETA
+6. Learning Capture Plan
+   * Key technical issues likely to be encountered
+   * Concise solutions for common problems (token-efficient format)
+   * Focus on AI-relevant knowledge, not human documentation
+7. ETA
    * Estimated completion time for entire feature
    * Breakdown of time for each implementation step
 
@@ -49,6 +53,7 @@ After user validation of your proposal:
      - [ ] Feature requirements
      - [ ] Component implementation
      - [ ] Testing
+     - [ ] Learning capture
      - [ ] Review
    * Include ETA section to update after each step
    * If based on analysis from "_rules/_analysis", include reference link
@@ -92,7 +97,9 @@ Implementation Process and User Flow:
 
 6. **Final Validation:**
    * Present entire feature implementation to user for final validation
-   * Compile efficiently all most important learnings from 'devlog' folder into '_rules/_learnings/ai/' for the ai assistant to use later
+   * Compile token-efficiently the most important learnings from 'devlog' folder into '_rules/_learnings/ai/' for AI assistant reference
+   * Focus ONLY on problems encountered and solutions found to prevent repeating mistakes in future
+   * Use concise, structured format with minimal narrative and maximum information density
    * Include implementation summary, test results, and documentation status
    * Ask directly about documentation needs
 
