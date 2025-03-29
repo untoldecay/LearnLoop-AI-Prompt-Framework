@@ -43,12 +43,12 @@ That's it! Your AI assistant is now enhanced with Learnloop's structure.
 
 Learnloop enhances your AI interaction through **passive background rules** and **active @ commands** you issue for specific tasks.
 
-* **Passive:** The AI automatically tries to follow best practices defined in .windsurfrules which are loaded in its settings([see detailed explanations here](#the-ruleset-(.windsurfrules))).
+* **Passive:** The AI automatically tries to follow best practices defined in .windsurfrules which are loaded in its settings([see detailed explanations here](#the-ruleset)).
 * **Active Example:** Take direct control for structured tasks like planning a feature:
 
-  > > "Please follow @breakdown.md to create a plan for the login form"
+  > "Please follow @breakdown.md to create a plan for the login form"
 
-Explore specific commands in **[Prompts](#the-prompts-(_rules/_prompts/))** section.
+Explore specific commands in **[Prompts](#the-prompts))** section.
 
 # How Does It Work Under the Hood?
 
@@ -94,7 +94,7 @@ For specific, structured tasks, you can **explicitly tell the AI** to use a Lear
 
 This active mode gives you precise control over *when* and *how* specific structured workflows are executed.
 
-## The Ruleset (.windsurfrules)
+## The Ruleset
 
 This is the **brain** or **operating system** loaded into your AI's persistent memory (custom instructions). It contains the core principles and conditional logic. It acts like an index, telling the AI *when* to apply general good practices or *when* to potentially trigger a specific prompt passively.
 
@@ -122,7 +122,7 @@ This is the **brain** or **operating system** loaded into your AI's persistent m
 * **Modularity:** Suggest Facade pattern for large files.
 * **Version Control:** Guide structured commit messages.
 
-## The Prompts (_rules/_prompts/)
+## The Prompts
 
 These are detailed **workflow templates** or **Standard Operating Procedures (SOPs)** for specific tasks. They ensure consistency and automation.
 
