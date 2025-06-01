@@ -131,11 +131,13 @@ These are detailed **workflow templates** or **Standard Operating Procedures (SO
 
 ### Featured Prompts (Examples of Active Usage):
 
-#### Create a Feature Plan (`@breakdown.md`)
+#### Create a Feature Plan (`@breakdown.md` or `@breakdown-enhanced.md`)
 
 * **Goal:** Start building a new feature in a structured way.
 * **Try:** `> "follow @breakdown.md for creating a [feature-name]"`
+* **Enhanced Try:** `> "follow @breakdown-enhanced.md for creating a [feature-name]"`
 * **Outcome:** Analyzes context, creates a detailed plan in `_rules/_features/[feature-name]/plan.md`, sets up `devlog`, saves insights, guides implementation.
+* **Enhanced Outcome:** Additionally evaluates task complexity and automatically subdivides complex tasks for optimal granularity.
 
 #### Breaking Down Large Files (`@facade_modularization.md`)
 
@@ -161,6 +163,12 @@ These are detailed **workflow templates** or **Standard Operating Procedures (SO
 * **Try:** `> "enter teaching mode for learning @[technology-name]"`
 * **Outcome:** Creates a learning plan, guides *you* through implementation, provides feedback, explains concepts.
 
+#### Task Complexity Evaluation (`@complexity-evaluation.md`)
+
+* **Goal:** Automatically evaluate and optimize task complexity for better implementation.
+* **Try:** `> "apply @complexity-evaluation.md to evaluate task complexity"`
+* **Outcome:** Systematically evaluates task complexity using 6-factor scoring, automatically subdivides complex tasks (score > 3) into manageable subtasks (score 2-3).
+
 *(More prompts like analysis capture and context extraction can be added.)*
 
 ## The Folder Structure (`_rules/` & `_tests/`)
@@ -172,6 +180,11 @@ _rules/                  # Learnloop's structured context home
  ├── .windsurfrules      # AI Core Directives (Loaded in AI memory)
  ├── .mission            # Project Goal Context
  ├── _prompts/           # Workflow Templates (SOPs)
+ │   ├── breakdown.md           # Original feature breakdown template
+ │   ├── breakdown-enhanced.md  # Enhanced with complexity evaluation
+ │   ├── complexity-evaluation.md  # Task complexity assessment
+ │   ├── task-subdivision-logic.md # Automatic task subdivision
+ │   └── [other prompts...]
  ├── _features/          # Feature Plans & Devlogs (Generated Output)
  ├── _documentation/     # Feature/Component Docs (Generated Output)
  └── _learnings/         # User & AI Insights (Generated Output)
@@ -194,6 +207,7 @@ Learnloop helps you move beyond chaotic AI code generation towards structured, s
 | **Capture User Learnings** | Actively solidify your own understanding with structured learning cards (`_learnings/user/`). |
 | **Structured Documentation** | Automatically generate consistent, accessible documentation (`_documentation/`). |
 | **Enforced Best Practices** | Ruleset passively encourages testing, readability, modularity etc., improving code quality. |
+| **Automatic Task Optimization** | Complexity evaluation system ensures tasks are optimally sized for predictable implementation. |
 | **Structured Context for AI** | Organized context in `_rules/` helps the AI understand the project better over time. |
 | **Tool Interoperability** | The structured text-based context in `_rules/` can potentially be referenced by other AI tools. |
 | **Focused AI Interaction** | Reference specific context files (`@_rules/...`) to save tokens and guide the AI more precisely. |
